@@ -18,13 +18,14 @@ This setup will be used as the foundation for future milestones in the course.
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 ## Continuous Integration
 GitHub Actions is used to automatically test the environment in a clean setup.
 The CI workflow installs all dependencies and runs a simple smoke test to check
 that required libraries can be imported correctly.
 
-# Reproducibility and the ML Lifecycle
+## Reproducibility and the ML Lifecycle
 
 Reproducible environments are important for machine learning projects because models are often
 developed on a local machine and later run in different environments such as server or cloud
